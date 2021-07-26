@@ -1,19 +1,63 @@
 {
-  "posts": [
+  "receitas": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "nome": "",
+      "descricao": "",
+      "ingrediente": "",
+      "preparo": "",
+      "avaliacao": "",
+      "imagem": ""
+    },
+
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": 2,
+      "nome": "",
+      "descricao": "",
+      "ingrediente": "",
+      "preparo": "",
+      "avaliacao": "",
+      "imagem": ""
+    },
+
+    {
+      "id": 3,
+      "nome": "",
+      "descricao": "",
+      "ingrediente": "",
+      "preparo": "",
+      "avaliacao": "",
+      "imagem": ""
+    },
+
+    {
+      "id": 4,
+      "nome": "",
+      "descricao": "",
+      "ingrediente": "",
+      "preparo": "",
+      "avaliacao": "",
+      "imagem": ""
+    },
+
+    {
+      "id": 5,
+      "nome": "",
+      "descricao": "",
+      "ingrediente": "",
+      "preparo": "",
+      "avaliacao": "",
+      "imagem": ""
+    },
+
+    {
+      "id": 6,
+      "nome": "",
+      "descricao": "",
+      "ingrediente": "",
+      "preparo": "",
+      "avaliacao": "",
+      "imagem": ""
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
