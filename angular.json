@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "OneChef"
+    }
+  },
+  "defaultProject": "OneChef",
+  "cli": {
+    "analytics": "720ec0af-713b-47b1-a641-15e493575940"
+  }
 }
