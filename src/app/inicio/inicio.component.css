@@ -1,0 +1,43 @@
+.imagem1 {
+  height: 176px;
+  width: 575px;
+  left: -1003px;
+  top: -132px;
+  border-radius: 10px;
+}
+
+.centro {
+  text-align: center;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 60px;
+
+  color: #000000;
+}
+
+.b {
+  margin-left: 20px;
+}
+
+.imagem2 {
+  height: 449px;
+  width: 448px;
+  left: -925px;
+  top: 255px;
+  border-radius: 25px;
+
+}
+
+.lf{
+  align-items: center;
+  text-align: right;
+  font-size: 30px;
+  font-family: Roboto;
+  display: flex;
+}
+
+.aoba{
+  color: #FFC107;
+}
