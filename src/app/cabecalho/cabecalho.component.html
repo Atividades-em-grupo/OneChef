@@ -1,7 +1,8 @@
 <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-md navbar-dark bg-onechef">
         <div class="container">
-            <a class="navbar-brand" href="#">Navbar</a>
+            <a class="navbar-brand" href="#"><img src="assets/imgs/logo/one-chef.png" alt="logo" class="logo"></a>
+
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -9,17 +10,17 @@
             </button>
 
             <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
+                <form class="d-flex form">
+                    <input class="form-control" type="search" placeholder="Procurar Receitas" aria-label="Search">
+                    <button class="btn button-search" type="submit">
+                        <i class="fas fa-search"></i>
+                    </button>
                 </form>
-
-                
             </div>
 
-            
+            <div class="collapse navbar-collapse login" id="navbarSupportedContent">
+                <a class="navbar-brand" href="#"><i class="fas fa-user-circle user-icon"></i></a>
+            </div>
         </div>
-
-
     </nav>
 </header>
