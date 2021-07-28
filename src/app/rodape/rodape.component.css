@@ -17,12 +17,11 @@
     margin: 0;
 }
 
-.col {
-    padding: 1rem;
+.col-md {
+    margin-top: 1.2rem;
 }
 
 .social-media {
-    justify-content: right;
     align-items: center ;
     display: flex;
 }

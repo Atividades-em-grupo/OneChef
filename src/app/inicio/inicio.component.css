@@ -1,9 +1,11 @@
 .imagem1 {
   height: 176px;
   width: 575px;
-  left: -1003px;
-  top: -132px;
   border-radius: 10px;
+}
+
+.center {
+  text-align: center;
 }
 
 .centro {
