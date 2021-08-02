@@ -33,11 +33,14 @@
 }
 
 .lf{
-  align-items: center;
-  text-align: right;
-  font-size: 30px;
+
   font-family: Roboto;
-  display: flex;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 42px;
+
+  color: #000000;
 }
 
 .aoba{
