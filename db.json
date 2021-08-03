@@ -3,13 +3,15 @@
     {
         "id": 1,
         "nome": "Salgados",
-        "imagem":""
+        "descricao": "Tradicionais receitas salgadas da família Furlan",
+        "imagem":"assets/imgs/categorias/salgado.png"
     },
 
     {
       "id": 1,
       "nome": "Doces",
-      "imagem":""
+      "descricao": "Tradicionais receitas doces da família Furlan",
+      "imagem":"assets/imgs/categorias/doce.png"
     }
   ],
 
