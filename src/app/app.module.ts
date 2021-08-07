@@ -6,13 +6,19 @@ import { AppComponent } from './app.component';
 import { CabecalhoComponent } from './cabecalho/cabecalho.component';
 import { RodapeComponent } from './rodape/rodape.component';
 import { InicioComponent } from './inicio/inicio.component';
+import { CategoriasComponent } from './inicio/categorias/categorias.component';
+import { BemAvaliadosComponent } from './inicio/bem-avaliados/bem-avaliados.component';
+import { QuemSomosComponent } from './quem-somos/quem-somos.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CabecalhoComponent,
     RodapeComponent,
-    InicioComponent
+    InicioComponent,
+    CategoriasComponent,
+    BemAvaliadosComponent,
+    QuemSomosComponent
   ],
   imports: [
     BrowserModule,
