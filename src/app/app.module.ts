@@ -9,6 +9,8 @@ import { InicioComponent } from './inicio/inicio.component';
 import { CategoriasComponent } from './inicio/categorias/categorias.component';
 import { BemAvaliadosComponent } from './inicio/bem-avaliados/bem-avaliados.component';
 import { QuemSomosComponent } from './quem-somos/quem-somos.component';
+import { CategoriaComponent } from './inicio/categorias/categoria/categoria.component';
+import { CategoriasService } from './inicio/categorias/categorias.service';
 
 @NgModule({
   declarations: [
@@ -18,13 +20,14 @@ import { QuemSomosComponent } from './quem-somos/quem-somos.component';
     InicioComponent,
     CategoriasComponent,
     BemAvaliadosComponent,
-    QuemSomosComponent
+    QuemSomosComponent,
+    CategoriaComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [CategoriasService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
