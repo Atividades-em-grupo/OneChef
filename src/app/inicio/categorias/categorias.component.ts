@@ -9,12 +9,13 @@ import { CategoriasService } from './categorias.service';
 })
 export class CategoriasComponent implements OnInit {
 
-  categorias: Categoria[]
+  categorias: Categoria[];
 
   constructor(private categoriasService: CategoriasService) { }
 
   ngOnInit(): void {
-    // this.categorias = this.categoriasService.categorias();
+    this.categoriasService.categorias().subscribe(categorias => {
+      this.categorias = categorias;
+    });
   }
-
 }
