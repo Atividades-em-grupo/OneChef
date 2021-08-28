@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import {HttpClientModule} from '@angular/common/http';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -12,6 +12,8 @@ import { BemAvaliadosComponent } from './inicio/bem-avaliados/bem-avaliados.comp
 import { QuemSomosComponent } from './quem-somos/quem-somos.component';
 import { CategoriaComponent } from './inicio/categorias/categoria/categoria.component';
 import { CategoriasService } from './inicio/categorias/categorias.service';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ToastrModule } from 'ngx-toastr';
 
 @NgModule({
   declarations: [
@@ -27,7 +29,9 @@ import { CategoriasService } from './inicio/categorias/categorias.service';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    BrowserAnimationsModule,
+    ToastrModule.forRoot()
   ],
   providers: [CategoriasService],
   bootstrap: [AppComponent]
