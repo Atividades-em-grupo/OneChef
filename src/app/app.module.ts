@@ -7,13 +7,14 @@ import { AppComponent } from './app.component';
 import { CabecalhoComponent } from './cabecalho/cabecalho.component';
 import { RodapeComponent } from './rodape/rodape.component';
 import { InicioComponent } from './inicio/inicio.component';
-import { CategoriasComponent } from './inicio/categorias/categorias.component';
-import { BemAvaliadosComponent } from './inicio/bem-avaliados/bem-avaliados.component';
+import { CategoriasComponent } from './categorias/categorias.component';
+import { BemAvaliadosComponent } from './bem-avaliados/bem-avaliados.component';
 import { QuemSomosComponent } from './quem-somos/quem-somos.component';
-import { CategoriaComponent } from './inicio/categorias/categoria/categoria.component';
-import { CategoriasService } from './inicio/categorias/categorias.service';
+import { CategoriaComponent } from './categorias/categoria/categoria.component';
+import { CategoriasService } from './categorias/categorias.service';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ToastrModule } from 'ngx-toastr';
+import { ReceitasComponent } from './receitas/receitas.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { ToastrModule } from 'ngx-toastr';
     CategoriasComponent,
     BemAvaliadosComponent,
     QuemSomosComponent,
-    CategoriaComponent
+    CategoriaComponent,
+    ReceitasComponent
   ],
   imports: [
     BrowserModule,

@@ -5,5 +5,16 @@
 }
 
 body {
-    background-color: #c4c4c4;
+  background-color: #c4c4c4;
+  height: 100vh;
+}
+
+.root {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.conteudo {
+  flex: 1;
 }

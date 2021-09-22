@@ -1,14 +1,14 @@
 {
   "categorias": [
     {
-        "id": 1,
+        "id_categoria": 1,
         "nome": "Salgados",
         "descricao": "Tradicionais receitas salgadas da família Furlan",
         "imagem":"assets/imgs/categorias/salgado.png"
     },
 
     {
-      "id": 1,
+      "id_categoria": 2,
       "nome": "Doces",
       "descricao": "Tradicionais receitas doces da família Furlan",
       "imagem":"assets/imgs/categorias/doce.png"
@@ -17,63 +17,69 @@
 
   "receitas": [
     {
-      "id": 1,
+      "id_receita": 1,
       "nome": "",
       "descricao": "",
       "ingrediente": "",
       "preparo": "",
       "avaliacao": "",
-      "imagem": ""
+      "imagem": "",
+      "categoria_id": ""
     },
 
     {
-      "id": 2,
+      "id_receita": 2,
       "nome": "",
       "descricao": "",
       "ingrediente": "",
       "preparo": "",
       "avaliacao": "",
-      "imagem": ""
+      "imagem": "",
+      "categoria_id": ""
     },
 
     {
-      "id": 3,
+      "id_receita": 3,
       "nome": "",
       "descricao": "",
       "ingrediente": "",
       "preparo": "",
       "avaliacao": "",
-      "imagem": ""
+      "imagem": "",
+      "categoria_id": ""
     },
 
     {
-      "id": 4,
+      "id_receita": 4,
       "nome": "",
       "descricao": "",
       "ingrediente": "",
       "preparo": "",
       "avaliacao": "",
-      "imagem": ""
+      "imagem": "",
+      "categoria_id": ""
     },
 
     {
-      "id": 5,
+      "id_receita": 5,
       "nome": "",
       "descricao": "",
       "ingrediente": "",
       "preparo": "",
       "avaliacao": "",
-      "imagem": ""
+      "imagem": "",
+      "categoria_id": ""
     },
 
     {
-      "id": 6,
+      "id_receita": 6,
       "nome": "",
       "descricao": "",
       "ingrediente": "",
       "preparo": "",
       "avaliacao": "",
-      "imagem": ""
+      "imagem": "",
+      "categoria_id": ""
     }
   ]
 }
