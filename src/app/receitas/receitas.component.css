@@ -1,0 +1,13 @@
+.centro {
+  text-align: center;
+}
+
+.card {
+  border-radius: 5px;
+  background-color: #c4c4c4;
+  border: #343a40 1px solid;
+}
+
+.img {
+  border-radius: 5px;
+}
