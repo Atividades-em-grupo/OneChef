@@ -18,68 +18,35 @@
   "receitas": [
     {
       "id_receita": 1,
-      "nome": "",
-      "descricao": "",
+      "nome": "Lasanha",
+      "descricao": "Deliciosa lasanha da família Furlan",
       "ingrediente": "",
       "preparo": "",
-      "avaliacao": "",
-      "imagem": "",
-      "categoria_id": ""
+      "avaliacao": 5.0,
+      "imagem": "assets/imgs/receitas/lasanha/lasanha.png",
+      "categoria_id": 1
     },
 
     {
       "id_receita": 2,
-      "nome": "",
-      "descricao": "",
+      "nome": "Pizza de Pepperoni",
+      "descricao": "Deliciosa pizza de pepperoni da família Furlan",
       "ingrediente": "",
       "preparo": "",
-      "avaliacao": "",
-      "imagem": "",
-      "categoria_id": ""
+      "avaliacao": 5.0,
+      "imagem": "assets/imgs/receitas/pizza-pepperoni/pizza-pepperoni.png",
+      "categoria_id": 1
     },
 
     {
       "id_receita": 3,
-      "nome": "",
-      "descricao": "",
+      "nome": "Sogontroff de Frango",
+      "descricao": "Delicioso sogontroff de frango da família Furlan",
       "ingrediente": "",
       "preparo": "",
-      "avaliacao": "",
-      "imagem": "",
-      "categoria_id": ""
-    },
-
-    {
-      "id_receita": 4,
-      "nome": "",
-      "descricao": "",
-      "ingrediente": "",
-      "preparo": "",
-      "avaliacao": "",
-      "imagem": "",
-      "categoria_id": ""
-    },
-
-    {
-      "id_receita": 5,
-      "nome": "",
-      "descricao": "",
-      "ingrediente": "",
-      "preparo": "",
-      "avaliacao": "",
-      "imagem": "",
-      "categoria_id": ""
-    },
-
-    {
-      "id_receita": 6,
-      "nome": "",
-      "descricao": "",
-      "ingrediente": "",
-      "preparo": "",
-      "avaliacao": "",
-      "imagem": "",
-      "categoria_id": ""
+      "avaliacao": 4.5,
+      "imagem": "assets/imgs/receitas/strogonoff-frango/strogonoff-frango.png",
+      "categoria_id": 1
     }
   ]
 }

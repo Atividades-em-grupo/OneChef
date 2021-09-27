@@ -29,10 +29,12 @@
 .login {
     max-width: 5rem;
     margin: 0;
+    text-align: right;
 }
 
 .user-icon {
     font-size: 3rem;
     padding: 0.3rem;
     color: #343a40;
+    width: 100%;
 }

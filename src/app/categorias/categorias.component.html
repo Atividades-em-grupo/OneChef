@@ -1,8 +1,9 @@
-<section class="categorias">
+<section class="secao">
+  <div class="centro">
     <h1>Categorias</h1>
-
+  </div>
     <div class="row">
-        <div class="col-md" *ngFor="let categoria of categorias">
+        <div class="col-md-6 coluna" *ngFor="let categoria of categorias">
             <app-categoria [categoria]="categoria"></app-categoria>
         </div>
     </div>
