@@ -23,7 +23,9 @@
       "ingrediente": "",
       "preparo": "",
       "avaliacao": 5.0,
-      "imagem": "assets/imgs/receitas/lasanha/lasanha.png",
+      "imagem_principal": "assets/imgs/receitas/lasanha/lasanha01.png",
+      "imagem_secundaria": "",
+      "imagem_terciaria": "",
       "categoria_id": 1
     },
 
@@ -34,7 +36,9 @@
       "ingrediente": "",
       "preparo": "",
       "avaliacao": 5.0,
-      "imagem": "assets/imgs/receitas/pizza-pepperoni/pizza-pepperoni.png",
+      "imagem_principal": "assets/imgs/receitas/pizza-pepperoni/pizza-pepperoni01.png",
+      "imagem_secundaria": "",
+      "imagem_terciaria": "",
       "categoria_id": 1
     },
 
@@ -45,7 +49,9 @@
       "ingrediente": "",
       "preparo": "",
       "avaliacao": 4.5,
-      "imagem": "assets/imgs/receitas/strogonoff-frango/strogonoff-frango.png",
+      "imagem_principal": "assets/imgs/receitas/strogonoff-frango/strogonoff-frango01.png",
+      "imagem_secundaria": "",
+      "imagem_terciaria": "",
       "categoria_id": 1
     }
   ]

@@ -1,0 +1,12 @@
+.detalhes-receita {
+  margin-top: 20px;
+}
+
+.detalhes-receita h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.detalhes-receita ul {
+  padding: 0 0 0 1.3rem;
+}

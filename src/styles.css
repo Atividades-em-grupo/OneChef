@@ -9,6 +9,10 @@ body {
   height: 100vh;
 }
 
+a {
+  text-decoration: none;
+}
+
 .root {
   height: 100vh;
   display: flex;
@@ -35,6 +39,7 @@ body {
   margin: 0;
   font-size: 2.5rem;
   text-transform: uppercase;
+  font-weight: bold;
 }
 
 .card {
@@ -45,6 +50,7 @@ body {
 
 .card-title {
   font-size: 1.4rem;
+  color: #343a40;
 }
 
 .nowrap {

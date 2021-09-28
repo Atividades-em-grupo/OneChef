@@ -16,6 +16,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ToastrModule } from 'ngx-toastr';
 import { ReceitasComponent } from './receitas/receitas.component';
 import { ReceitaComponent } from './receitas/receita/receita.component';
+import { ReceitaDetalheComponent } from './receita-detalhe/receita-detalhe.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { ReceitaComponent } from './receitas/receita/receita.component';
     QuemSomosComponent,
     CategoriaComponent,
     ReceitasComponent,
-    ReceitaComponent
+    ReceitaComponent,
+    ReceitaDetalheComponent
   ],
   imports: [
     BrowserModule,

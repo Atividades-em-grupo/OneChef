@@ -1,10 +1,10 @@
-<a>
+<a [routerLink]="['/receitas', receita.id_receita]">
   <div class="card">
-    <img [src]="receita.imagem" class="card-img-top" alt="...">
+    <img [src]="receita.imagem_principal" class="card-img-top" alt="...">
     <div class="card-body">
       <div class="flex">
         <h1 class="card-title nowrap">{{ receita.nome }}</h1>
-        <span class="estrela"><i class="fas fa-star"></i> {{ receita.avaliacao }}</span>
+        <span class="estrela"><i class="fas fa-star"></i>{{ receita.avaliacao }}</span>
       </div>
       <p class="card-text text-muted nowrap">
         {{ receita.descricao }}

@@ -5,6 +5,8 @@ export interface Receita {
   ingrediente: string;
   preparo: string;
   avaliacao: number;
-  imagem: string;
+  imagem_principal: string;
+  imagem_secundaria: string;
+  imagem_terciaria: string;
   categoria_id: number;
 }
