@@ -1,12 +1,15 @@
 .detalhes-receita {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .detalhes-receita h2 {
   text-transform: uppercase;
   font-weight: bold;
+  font-size: 1.5rem;
 }
 
-.detalhes-receita ul {
+.detalhes-receita ul, ol {
   padding: 0 0 0 1.3rem;
+  font-size: 1rem;
+  margin: 0;
 }
