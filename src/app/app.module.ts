@@ -17,6 +17,9 @@ import { ToastrModule } from 'ngx-toastr';
 import { ReceitasComponent } from './receitas/receitas.component';
 import { ReceitaComponent } from './receitas/receita/receita.component';
 import { ReceitaDetalheComponent } from './receita-detalhe/receita-detalhe.component';
+import { MenuDetalheComponent } from './receita-detalhe/menu-detalhe/menu-detalhe.component';
+import { ModoPreparoComponent } from './receita-detalhe/modo-preparo/modo-preparo.component';
+import { IngredientesComponent } from './receita-detalhe/ingredientes/ingredientes.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +33,10 @@ import { ReceitaDetalheComponent } from './receita-detalhe/receita-detalhe.compo
     CategoriaComponent,
     ReceitasComponent,
     ReceitaComponent,
-    ReceitaDetalheComponent
+    ReceitaDetalheComponent,
+    MenuDetalheComponent,
+    ModoPreparoComponent,
+    IngredientesComponent
   ],
   imports: [
     BrowserModule,
