@@ -1,23 +1,7 @@
 {
-  "categorias": [
-    {
-        "id_categoria": 1,
-        "nome": "Salgados",
-        "descricao": "Tradicionais receitas salgadas da família Furlan",
-        "imagem":"assets/imgs/categorias/salgado.png"
-    },
-
-    {
-      "id_categoria": 2,
-      "nome": "Doces",
-      "descricao": "Tradicionais receitas doces da família Furlan",
-      "imagem":"assets/imgs/categorias/doce.png"
-    }
-  ],
-
   "receitas": [
     {
-      "id_receita": 1,
+      "id": "lasanha",
       "nome": "Lasanha",
       "descricao": "Deliciosa lasanha da família Furlan",
       "ingrediente": "",
@@ -25,12 +9,10 @@
       "avaliacao": 5.0,
       "imagem_principal": "assets/imgs/receitas/lasanha/lasanha01.png",
       "imagem_secundaria": "",
-      "imagem_terciaria": "",
-      "categoria_id": 1
+      "imagem_terciaria": ""
     },
-
     {
-      "id_receita": 2,
+      "id": "pizza-pepperoni",
       "nome": "Pizza de Pepperoni",
       "descricao": "Deliciosa pizza de pepperoni da família Furlan",
       "ingrediente": "",
@@ -38,12 +20,10 @@
       "avaliacao": 5.0,
       "imagem_principal": "assets/imgs/receitas/pizza-pepperoni/pizza-pepperoni01.png",
       "imagem_secundaria": "",
-      "imagem_terciaria": "",
-      "categoria_id": 1
+      "imagem_terciaria": ""
     },
-
     {
-      "id_receita": 3,
+      "id": "sogontroff-frango",
       "nome": "Sogontroff de Frango",
       "descricao": "Delicioso sogontroff de frango da família Furlan",
       "ingrediente": "",
@@ -51,8 +31,40 @@
       "avaliacao": 4.5,
       "imagem_principal": "assets/imgs/receitas/strogonoff-frango/strogonoff-frango01.png",
       "imagem_secundaria": "",
-      "imagem_terciaria": "",
-      "categoria_id": 1
+      "imagem_terciaria": ""
+    },
+    {
+      "id": "mousse-chocolate",
+      "nome": "Mousse de Chocolate",
+      "descricao": "Delicioso mousse de chocolate da família Furlan",
+      "ingrediente": "",
+      "preparo": "",
+      "avaliacao": 5.0,
+      "imagem_principal": "assets/imgs/receitas/mousse-chocolate/mousse-chocolate01.png",
+      "imagem_secundaria": "",
+      "imagem_terciaria": ""
+    },
+    {
+      "id": "bolo-churros",
+      "nome": "Bolo de Churros",
+      "descricao": "Delicioso bolo de churros da família Furlan",
+      "ingrediente": "",
+      "preparo": "",
+      "avaliacao": 5.0,
+      "imagem_principal": "assets/imgs/receitas/bolo-churros/bolo-churros01.png",
+      "imagem_secundaria": "",
+      "imagem_terciaria": ""
+    },
+    {
+      "id": "bolinho-chuva",
+      "nome": "Bolinho de Chuva",
+      "descricao": "Delicioso bolinho de chuva da família Furlan",
+      "ingrediente": "",
+      "preparo": "",
+      "avaliacao": 4.5,
+      "imagem_principal": "assets/imgs/receitas/bolinho-chuva/bolinho-chuva01.png",
+      "imagem_secundaria": "",
+      "imagem_terciaria": ""
     }
   ]
 }

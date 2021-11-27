@@ -1,5 +1,5 @@
 export interface Receita {
-  id_receita: number;
+  id: string;
   nome: string;
   descricao: string;
   ingrediente: string;
@@ -8,5 +8,4 @@ export interface Receita {
   imagem_principal: string;
   imagem_secundaria: string;
   imagem_terciaria: string;
-  categoria_id: number;
 }

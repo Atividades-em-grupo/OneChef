@@ -1,4 +1,7 @@
+import { ReceitasService } from './../receitas/receitas.service';
 import { Component, OnInit } from '@angular/core';
+import { Receita } from '../receitas/receita/receita.model';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-receita-detalhe',
@@ -7,9 +10,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ReceitaDetalheComponent implements OnInit {
 
-  constructor() { }
+  receitas: Receita;
+
+  constructor(private receitasService: ReceitasService, private route: ActivatedRoute) { }
 
   ngOnInit(): void {
+    this.receitasService.receitaById(this.route.snapshot.params['id'])
+      .subscribe(receitas => {
+        this.receitas = receitas;
+      })
   }
 
 }
