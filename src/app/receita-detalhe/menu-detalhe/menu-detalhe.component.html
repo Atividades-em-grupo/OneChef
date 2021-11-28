@@ -1,13 +1,8 @@
 <div class="row">
-  <div class="col-md-6 coluna">
-    <img style="width: 100%; border-radius: 10px;" src="assets/imgs/receitas/strogonoff-frango/strogonoff-frango02.png"
-      alt="Imagem da receita">
+  <div class="col-md-6 coluna" *ngIf="receitas">
+    <img style="width: 100%; border-radius: 10px;" [src]="receitas?.imagem_secundaria" alt="Imagem da receita">
   </div>
   <div class="col-md-6 coluna">
-    <span class="centro">
-      <h1>Strogonoff de frango</h1>
-    </span>
-
     <app-ingredientes></app-ingredientes>
   </div>
 </div>
@@ -17,8 +12,7 @@
     <app-modo-preparo></app-modo-preparo>
   </div>
 
-  <div class="col-md-6 coluna">
-    <img style="width: 100%; border-radius: 10px;" src="assets/imgs/receitas/strogonoff-frango/strogonoff-frango03.png"
-      alt="">
+  <div class="col-md-6 coluna" *ngIf="receitas">
+    <img style="width: 100%; border-radius: 10px;" [src]="receitas?.imagem_terciaria" alt="Imagem da receita">
   </div>
 </div>

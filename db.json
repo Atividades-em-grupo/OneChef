@@ -8,8 +8,8 @@
       "preparo": "",
       "avaliacao": 5.0,
       "imagem_principal": "assets/imgs/receitas/lasanha/lasanha01.png",
-      "imagem_secundaria": "",
-      "imagem_terciaria": ""
+      "imagem_secundaria": "assets/imgs/receitas/lasanha/lasanha02.png",
+      "imagem_terciaria": "assets/imgs/receitas/lasanha/lasanha03.png"
     },
     {
       "id": "pizza-pepperoni",
@@ -17,10 +17,10 @@
       "descricao": "Deliciosa pizza de pepperoni da família Furlan",
       "ingrediente": "",
       "preparo": "",
-      "avaliacao": 5.0,
+      "avaliacao": 4.8,
       "imagem_principal": "assets/imgs/receitas/pizza-pepperoni/pizza-pepperoni01.png",
-      "imagem_secundaria": "",
-      "imagem_terciaria": ""
+      "imagem_secundaria": "assets/imgs/receitas/pizza-pepperoni/pizza-pepperoni02.png",
+      "imagem_terciaria": "assets/imgs/receitas/pizza-pepperoni/pizza-pepperoni03.png"
     },
     {
       "id": "sogontroff-frango",
@@ -30,8 +30,8 @@
       "preparo": "",
       "avaliacao": 4.5,
       "imagem_principal": "assets/imgs/receitas/strogonoff-frango/strogonoff-frango01.png",
-      "imagem_secundaria": "",
-      "imagem_terciaria": ""
+      "imagem_secundaria": "assets/imgs/receitas/strogonoff-frango/strogonoff-frango02.png",
+      "imagem_terciaria": "assets/imgs/receitas/strogonoff-frango/strogonoff-frango03.png"
     },
     {
       "id": "mousse-chocolate",
@@ -41,8 +41,8 @@
       "preparo": "",
       "avaliacao": 5.0,
       "imagem_principal": "assets/imgs/receitas/mousse-chocolate/mousse-chocolate01.png",
-      "imagem_secundaria": "",
-      "imagem_terciaria": ""
+      "imagem_secundaria": "assets/imgs/receitas/mousse-chocolate/mousse-chocolate02.png",
+      "imagem_terciaria": "assets/imgs/receitas/mousse-chocolate/mousse-chocolate03.png"
     },
     {
       "id": "bolo-churros",
@@ -50,10 +50,10 @@
       "descricao": "Delicioso bolo de churros da família Furlan",
       "ingrediente": "",
       "preparo": "",
-      "avaliacao": 5.0,
+      "avaliacao": 4.9,
       "imagem_principal": "assets/imgs/receitas/bolo-churros/bolo-churros01.png",
-      "imagem_secundaria": "",
-      "imagem_terciaria": ""
+      "imagem_secundaria": "assets/imgs/receitas/bolo-churros/bolo-churros02.png",
+      "imagem_terciaria": "assets/imgs/receitas/bolo-churros/bolo-churros03.png"
     },
     {
       "id": "bolinho-chuva",
@@ -61,10 +61,10 @@
       "descricao": "Delicioso bolinho de chuva da família Furlan",
       "ingrediente": "",
       "preparo": "",
-      "avaliacao": 4.5,
+      "avaliacao": 4.7,
       "imagem_principal": "assets/imgs/receitas/bolinho-chuva/bolinho-chuva01.png",
-      "imagem_secundaria": "",
-      "imagem_terciaria": ""
+      "imagem_secundaria": "assets/imgs/receitas/bolinho-chuva/bolinho-chuva02.png",
+      "imagem_terciaria": "assets/imgs/receitas/bolinho-chuva/bolinho-chuva03.png"
     }
   ]
 }
