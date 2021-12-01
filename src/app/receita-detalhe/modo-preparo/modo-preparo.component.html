@@ -1,11 +1,4 @@
-    <h2>Modo de preparo</h2>
-    <ol>
-      <li>Em uma panela, misture o frango, o alho, a maionese, o sal e a pimenta.</li>
-      <li>Em uma frigideira grande, derreta a manteiga e doure a cebola.</li>
-      <li>Junte o frango temperado até que esteja dourado.</li>
-      <li>Adicione os cogumelos, o ketchup e a mostarda</li>
-      <li>Incorpore o creme de leite e retire do fogo antes de ferver.</li>
-      <li>Sirva com arroz branco e batata palha.</li>
-    </ol>
-
-
+<h2>Modo de preparo</h2>
+<ol>
+  <li *ngFor="let receitas of receitas?.preparo">{{ receitas }}</li>
+</ol>

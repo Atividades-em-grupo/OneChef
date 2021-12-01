@@ -1,18 +1,12 @@
+<app-carrossel></app-carrossel>
+
+<app-informacoes></app-informacoes>
+
 <div class="row">
-  <div class="col-md-6 coluna" *ngIf="receitas">
-    <img style="width: 100%; border-radius: 10px;" [src]="receitas?.imagem_secundaria" alt="Imagem da receita">
-  </div>
-  <div class="col-md-6 coluna">
+  <div class="col-md-6 coluna detalhes-receita">
     <app-ingredientes></app-ingredientes>
   </div>
-</div>
-
-<div class="row detalhes-receita">
-  <div class="col-md-6 coluna">
+  <div class="col-md-6 coluna detalhes-receita">
     <app-modo-preparo></app-modo-preparo>
-  </div>
-
-  <div class="col-md-6 coluna" *ngIf="receitas">
-    <img style="width: 100%; border-radius: 10px;" [src]="receitas?.imagem_terciaria" alt="Imagem da receita">
   </div>
 </div>

@@ -20,27 +20,66 @@
         "3 dentes de alho amassados;",
         "1 pacote de queijo ralado."
       ],
-      "preparo": "",
+      "preparo": [
+        "Cozinhe a massa segundo as orientações do fabricante, despeje em um refratário com água gelada para não grudar e reserve;",
+        "Refogue o alho, a cebola, a carne moída, o molho de tomate, deixe cozinhar por 3 minutos e reserve;",
+        "Derreta a margarina, coloque as 3 colheres de farinha de trigo e mexa;",
+        "Despeje o leite aos poucos e continue mexendo;",
+        "Coloque o creme de leite, mexa por 1 minuto e desligue o fogo;",
+        "Despeje uma parte do molho à bolonhesa em um refratário, a metade da massa, a metade do presunto, a metade da mussarela, todo o molho branco e o restante da massa;",
+        "Repita as camadas até a borda do recipiente;",
+        "Finalize com o queijo ralado e leve ao forno alto (220° C), preaquecido, por cerca de 20 minutos."
+      ],
       "avaliacao": 5.0,
+      "tempo": "50 min",
+      "rendimento": "15 porções",
       "imagem_principal": "assets/imgs/receitas/lasanha/lasanha01.png",
       "imagem_secundaria": "assets/imgs/receitas/lasanha/lasanha02.png",
-      "imagem_terciaria": "assets/imgs/receitas/lasanha/lasanha03.png"
+      "imagem_terciaria": "assets/imgs/receitas/lasanha/lasanha03.png",
+      "imagem_quaternaria": "assets/imgs/receitas/lasanha/lasanha04.png"
     },
     {
       "id": "pizza-pepperoni",
       "nome": "Pizza de Pepperoni",
       "descricao": "Deliciosa pizza de pepperoni da família Furlan",
-      "ingrediente": "",
-      "preparo": "",
+      "ingrediente": [
+        "4 ou 5 canecas de chá de farinha com fermento;",
+        "2 canecas de chá de leite;",
+        "4 colheres de sopa de manteiga;",
+        "Sal fino a gosto;",
+        "1 lata de tomate em cubos;",
+        "Alho em pó a gosto;",
+        "Azeite a gosto;",
+        "Cebola picada a gosto;",
+        "Orégano e manjericão a gosto;",
+        "Sal e pimenta em pó a gosto;",
+        "1 lata de cogumelos laminados;",
+        "Pimentão verde, vermelho, laranja e amarelo a gosto;",
+        "Pepperoni a gosto;",
+        "Queijo muçarela ralado."
+      ],
+      "preparo": [
+        "Na massa, misture tudo numa taça e amasse tudo com a mão, até a massa desapegar da taça. Caso ache necessário, poderá adicionar mais farinha;",
+        "Estenda a massa num balcão polvilhado com farinha, mas não muito grossa pois a massa cresce no forno devido ao fermento;",
+        "Depois, coloque a massa no tabuleiro de pizza e corte os lados para não ficar massa de fora;",
+        "Após a massa estar pronta, corte os pimentões fininhos e pequeninos, coloque os cogumelos para escorrer e corte o pepperoni fininho;",
+        "Para o molho, refogue a cebola no azeite junto com o alho em pó e a pimenta;",
+        "Pegue na polpa tomate em cubos e passe pelo processador para ficar em molho. Adicione ao refogado. Depois, tempere a gosto com o sal, os orégãos e o manjericão;",
+        "Quando o molho estiver pronto, distribua pela massa de pizza. Depois, coloque os pimentões, os cogumelos, queijo muçarela e as fatias de pepperoni;",
+        "Leve ao forno por 20 minutos a 180 graus."
+      ],
       "avaliacao": 4.8,
+      "tempo": "90 min",
+      "rendimento": "1 porção",
       "imagem_principal": "assets/imgs/receitas/pizza-pepperoni/pizza-pepperoni01.png",
       "imagem_secundaria": "assets/imgs/receitas/pizza-pepperoni/pizza-pepperoni02.png",
-      "imagem_terciaria": "assets/imgs/receitas/pizza-pepperoni/pizza-pepperoni03.png"
+      "imagem_terciaria": "assets/imgs/receitas/pizza-pepperoni/pizza-pepperoni03.png",
+      "imagem_quaternaria": "assets/imgs/receitas/pizza-pepperoni/pizza-pepperoni04.png"
     },
     {
-      "id": "sogontroff-frango",
-      "nome": "Sogontroff de Frango",
-      "descricao": "Delicioso sogontroff de frango da família Furlan",
+      "id": "strogonoff-frango",
+      "nome": "Strogonoff de Frango",
+      "descricao": "Delicioso strogonoff de frango da família Furlan",
       "ingrediente": [
         "3 peitos de frango cortados em cubos;",
         "1 dente de alho picado;",
@@ -62,42 +101,103 @@
         "Sirva com arroz branco e batata palha."
       ],
       "avaliacao": 4.5,
+      "tempo": "60 min",
+      "rendimento": "10 porções",
       "imagem_principal": "assets/imgs/receitas/strogonoff-frango/strogonoff-frango01.png",
       "imagem_secundaria": "assets/imgs/receitas/strogonoff-frango/strogonoff-frango02.png",
-      "imagem_terciaria": "assets/imgs/receitas/strogonoff-frango/strogonoff-frango03.png"
+      "imagem_terciaria": "assets/imgs/receitas/strogonoff-frango/strogonoff-frango03.png",
+      "imagem_quaternaria": "assets/imgs/receitas/strogonoff-frango/strogonoff-frango04.png"
     },
     {
       "id": "mousse-chocolate",
       "nome": "Mousse de Chocolate",
       "descricao": "Delicioso mousse de chocolate da família Furlan",
-      "ingrediente": "",
-      "preparo": "",
+      "ingrediente": [
+        "1 lata de NESTLÉ Creme de Leite;",
+        "200 g de Chocolate NESTLÉ CLASSIC Meio Amargo picado;",
+        "3 claras;",
+        "3 colheres (sopa) de açúcar"
+      ],
+      "preparo": [
+        "Em uma panela em banho-maria, aqueça o NESTLÉ Creme de Leite;",
+        "Junte o Chocolate NESTLÉ CLASSIC e mexa até que fique uma mistura homogênea. Reserve;",
+        "Em uma panela, misture as claras e o açúcar e leve ao fogo baixo, mexendo vigorosamente sem parar, por cerca de 3 minutos, tirando a panela do fogo por alguns instantes a cada minuto, continuando a mexer, para não cozinhar;",
+        "Transfira para uma batedeira e bata por 5 minutos ou até dobrar de volume;",
+        "Misture levemente ao creme de Chocolate;",
+        "Coloque em taças e leve à geladeira por cerca de 3 horas;",
+        "Decore com cerejas, chantilly ou raspas de chocolate;"
+      ],
       "avaliacao": 5.0,
+      "tempo": "5 min",
+      "rendimento": "15 porções",
       "imagem_principal": "assets/imgs/receitas/mousse-chocolate/mousse-chocolate01.png",
       "imagem_secundaria": "assets/imgs/receitas/mousse-chocolate/mousse-chocolate02.png",
-      "imagem_terciaria": "assets/imgs/receitas/mousse-chocolate/mousse-chocolate03.png"
+      "imagem_terciaria": "assets/imgs/receitas/mousse-chocolate/mousse-chocolate03.png",
+      "imagem_quaternaria": "assets/imgs/receitas/mousse-chocolate/mousse-chocolate04.png"
     },
     {
       "id": "bolo-churros",
       "nome": "Bolo de Churros",
       "descricao": "Delicioso bolo de churros da família Furlan",
-      "ingrediente": "",
-      "preparo": "",
+      "ingrediente": [
+        "3 ovos;",
+        "3 colheres de margarina;",
+        "1 xícara de açúcar;",
+        "2 xícaras de farinha de trigo peneirada;",
+        "1/2 xícara de leite;",
+        "1/2 colher de canela em pó;",
+        "1 colher (sopa) de fermento em pó;",
+        "Doce de leite;",
+        "Açúcar;",
+        "Canela em pó."
+      ],
+      "preparo": [
+        "Bata as claras em neve e reserve;",
+        "Em outra vasilha bata as gemas com a margarina e o açúcar;",
+        "Acrescente a esta mistura a farinha de trigo e o leite batendo sempre;",
+        "Coloque a canela em po e o fermento e mexa para misturar;",
+        "Acrescente as claras em neve e misture;",
+        "Coloque em forma untada e leve ao forno já pré aquecido a 180 graus;",
+        "Asse até dourar ou espete um palito para ver se está assado;",
+        "Deixe ficar morno e desenforme;",
+        "Passe doce de leite em cima do bolo;",
+        "Salpique açúcar e canela em pó."
+      ],
       "avaliacao": 4.9,
+      "tempo": "60 min",
+      "rendimento": "8 porções",
       "imagem_principal": "assets/imgs/receitas/bolo-churros/bolo-churros01.png",
       "imagem_secundaria": "assets/imgs/receitas/bolo-churros/bolo-churros02.png",
-      "imagem_terciaria": "assets/imgs/receitas/bolo-churros/bolo-churros03.png"
+      "imagem_terciaria": "assets/imgs/receitas/bolo-churros/bolo-churros03.png",
+      "imagem_quaternaria": "assets/imgs/receitas/bolo-churros/bolo-churros04.png"
     },
     {
       "id": "bolinho-chuva",
       "nome": "Bolinho de Chuva",
       "descricao": "Delicioso bolinho de chuva da família Furlan",
-      "ingrediente": "",
-      "preparo": "",
+      "ingrediente": [
+        "2 ovos;",
+        "1 xícara de açúcar;",
+        "1 xícara (chá) de leite;",
+        "2 e 1/2 xícaras de farinha de trigo;",
+        "1 colher (sopa) de fermento em pó;",
+        "3 colheres (sopa) de açúcar para polvilhar;",
+        "1 colher (sopa) de canela para polvilhar;",
+        "1 litro de óleo para fritar."
+      ],
+      "preparo": [
+        "Misture todos os ingredientes até obter uma massa cremosa e homogênea;",
+        "Deixe aquecer uma panela com bastante óleo para que os bolinhos possam boiar;",
+        "Quando o óleo estiver bem quente (180º C), com uma colher, comece a colocar pequenas quantidades de massa, e frite até que dourem por inteiro;",
+        "Coloque os bolinhos sobre papel absorvente e depois passe-os no açúcar com canela."
+      ],
       "avaliacao": 4.7,
+      "tempo": "30 min",
+      "rendimento": "8 porções",
       "imagem_principal": "assets/imgs/receitas/bolinho-chuva/bolinho-chuva01.png",
       "imagem_secundaria": "assets/imgs/receitas/bolinho-chuva/bolinho-chuva02.png",
-      "imagem_terciaria": "assets/imgs/receitas/bolinho-chuva/bolinho-chuva03.png"
+      "imagem_terciaria": "assets/imgs/receitas/bolinho-chuva/bolinho-chuva03.png",
+      "imagem_quaternaria": "assets/imgs/receitas/bolinho-chuva/bolinho-chuva04.png"
     }
   ]
 }

@@ -18,6 +18,8 @@ import { ModoPreparoComponent } from './receita-detalhe/modo-preparo/modo-prepar
 import { IngredientesComponent } from './receita-detalhe/ingredientes/ingredientes.component';
 import { HomeComponent } from './home/home.component';
 import { ReceitasService } from './receitas/receitas.service';
+import { CarrosselComponent } from './receita-detalhe/carrossel/carrossel.component';
+import { InformacoesComponent } from './receita-detalhe/informacoes/informacoes.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +34,9 @@ import { ReceitasService } from './receitas/receitas.service';
     MenuDetalheComponent,
     ModoPreparoComponent,
     IngredientesComponent,
-    HomeComponent
+    HomeComponent,
+    CarrosselComponent,
+    InformacoesComponent
   ],
   imports: [
     BrowserModule,

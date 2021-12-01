@@ -5,7 +5,10 @@ export interface Receita {
   ingrediente: string[];
   preparo: string[];
   avaliacao: number;
+  tempo: string;
+  rendimento: string;
   imagem_principal: string;
   imagem_secundaria: string;
   imagem_terciaria: string;
+  imagem_quaternaria: string;
 }
