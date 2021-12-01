@@ -1,10 +1,10 @@
 import { Injectable } from '@angular/core';
 import { ToastrService } from 'ngx-toastr';
 import { HttpClient } from '@angular/common/http';
-import { Receita } from './receita/receita.model';
 import { CHEF_API } from '../api.app';
 import { EMPTY, Observable } from 'rxjs';
 import { catchError, map } from 'rxjs/operators';
+import { Receita } from './receita/receita.model';
 
 @Injectable({
   providedIn: 'root'
@@ -27,5 +27,12 @@ export class ReceitasService {
 
   exibirMensagem(titulo: string, mensagem: string, tipo: string): void {
     this.toastr.show(mensagem, titulo, { closeButton: true, progressBar: true }, tipo);
+  }
+
+  receitaById(id: String): Observable<Receita> {
+    return this.http.get<Receita>(`${CHEF_API}/receitas/${id}`).pipe(
+      map(receitas => receitas),
+      catchError(erro => this.exibirErro(erro))
+    );
   }
 }
