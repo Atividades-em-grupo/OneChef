@@ -1,15 +1,6 @@
 <div class="detalhes-receita">
   <h2>Ingredientes</h2>
   <ul>
-    <li>3 peitos de frango cortados em cubos.</li>
-    <li>1 dente de alho picado.</li>
-    <li>Sal e pimenta a gosto.</li>
-    <li>1 cebola picada.</li>
-    <li>3 peito colheres (sopa) de maionese.</li>
-    <li>1 colher de manteiga.</li>
-    <li>1/2 copo de ketchup.</li>
-    <li>1/3 copo de mostarda.</li>
-    <li>1 copo de creme de leite.</li>
-    <li>Batata palha a gosto.</li>
+    <li *ngFor="let receitas of receitas.ingrediente">{{ receitas }}</li>
   </ul>
 </div>
